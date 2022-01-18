@@ -24,4 +24,6 @@ class portion:
 
     def getUnit(self):
         return self.unit
-    
+
+    def getModifier(self):
+        return self.portionSize / self.amountSize 
