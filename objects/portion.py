@@ -10,8 +10,18 @@ class portion:
     def setAmountSize(self, amountSize):
         self.amountSize = amountSize
 
+    def getAmountSize(self):
+        return self.amountSize
+
     def setPortionSize(self, portionSize):
         self.portionSize = portionSize
 
-    def changeUnit(self, unit):
+    def getPortionSize(self):
+        return self.portionSize
+
+    def setUnit(self, unit):
         self.unit = unit 
+
+    def getUnit(self):
+        return self.unit
+    
